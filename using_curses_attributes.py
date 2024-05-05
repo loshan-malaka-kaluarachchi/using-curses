@@ -30,9 +30,10 @@ def draw_line(char:str):
     _amp = 4
     _period = 10
     _ofst = 5
+    _samples = 150
     # Sine wave values - End
     
-    for index in range(150):
+    for index in range(_samples):
         current_value = gen_wave(index,
                                amplitude=_amp,
                                period=_period,
