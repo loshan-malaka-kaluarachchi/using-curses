@@ -14,6 +14,6 @@
 * Terminal window must be manually resized until the program executes fully.
 ![Program output upon succesfull execution](/screenshots/curse_executed.png)
 
-### Note
-* Sine wave properties are given by `_amp`, ` _period` and `_ofst` variables.
-* The number of samples are given by `_samples`
+> [!TIP]
+> Sine wave properties are given by `_amp`, ` _period` and `_ofst` variables.
+> The number of samples are given by `_samples`
