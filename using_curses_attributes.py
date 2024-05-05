@@ -39,8 +39,8 @@ def draw_line(char:str):
                                offset=_ofst
                                )
         stdscr.addstr(current_value, index, char, red_on_black) # Tick
-        stdscr.addstr(12,0, f'X = {index}', green_on_black) # Count
-        stdscr.addstr(13,0, f'Y = {current_value}', blue_on_black)
+        stdscr.addstr(12,0, f'Row = {index}', green_on_black) # Count
+        stdscr.addstr(13,0, f'Column = {current_value}', blue_on_black)
         stdscr.addstr(14,0, f'Amplitude = {_amp}', yellow_on_black) 
         stdscr.addstr(15,0, f'Period = {_period}', cyan_on_black) 
         stdscr.addstr(16,0, f'Offset = {_ofst}', magenta_on_black)
