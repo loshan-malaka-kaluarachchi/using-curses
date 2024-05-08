@@ -51,7 +51,7 @@ def main(*args):
 try:
     curses.wrapper(main)
 except curses.error:
-    print('Cannot curse beyond window boundaries!')
+    print('Cannot curse beyond window boundaries!\nResize screen and run again.')
 
 # ------------------------------------ Main End ------------------------------------ #
 
